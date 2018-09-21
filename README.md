@@ -12,3 +12,26 @@ Brick Breaker is the breakout fun game and gives the gamer his own choice to cho
 Refer following link to complete usage of the game::
 
 https://docs.google.com/presentation/d/1gQwWrObBjiOwDezXYFvG_VX2H8vE5_6GPqoYbnesBWo/edit?usp=sharing
+
+refernece::
+
+CODE::
+https://github.com/abhay693/OpenGL/tree/master/Brick%20Breaker
+
+Sound Effects::
+
+https://themushroomkingdom.net/media/smb/wav
+
+Reference::
+
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/
+
+
+MODIFICATIONS ARE DONE TO THE EXISTING CODE,SOUND AND NEW EFFECTS ARE ADDED.
+
+IF linker error occurs
+add following in your linker settings of your IDE::
+-lopengl32
+-lfreeglut
+-lglu32
+-lwinmm
